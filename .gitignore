@@ -1,0 +1,17 @@
+# Archivos del IDE
+*.iml
+.idea/
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Capturas y generados
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Otros
+*.log

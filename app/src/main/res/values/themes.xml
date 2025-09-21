@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.Tienda" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Barra de estado (hora, batería, señal) -->
+        <item name="android:statusBarColor">@color/my_primary_green</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Theme.Tienda.Splash" parent="Theme.SplashScreen">
+        <!-- Fondo -->
+        <item name="windowSplashScreenBackground">@color/my_light_green</item>
+
+        <!-- Tema que usará la app después del splash -->
+        <item name="postSplashScreenTheme">@style/Theme.Tienda</item>
+    </style>
+</resources>

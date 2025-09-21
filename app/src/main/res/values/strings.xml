@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tienda</string>
+    <string-array name="unidades_medida">
+        <item>pz</item>
+        <item>kg</item>
+        <item>g</item>
+        <item>ml</item>
+        <item>L</item>
+        <item>paq</item>
+    </string-array>
+</resources>
