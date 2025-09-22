@@ -78,9 +78,9 @@ class ImageUtils {
 
         fun getDefaultImageBase64(context: Context): String {
             val bmp = BitmapFactory.decodeResource(context.resources, R.drawable.placeholder)
-            val resized = ImageUtils.resizeBitmap(bmp)
-            val bytes = ImageUtils.bitmapToBytes(resized)
-            return ImageUtils.encodeToBase64(bytes)
+            val resized = resizeBitmap(bmp)
+            val bytes = bitmapToBytes(resized)
+            return encodeToBase64(bytes)
         }
 
     }
